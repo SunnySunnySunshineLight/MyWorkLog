@@ -1,0 +1,6 @@
+1、在本地创建一个版本库，通过git init命令变成本地的工作区
+2、新增或者修改文件之后，通过git add命令把文件添加到暂存区
+3、git commit -m "注释内容" 把文件提交到暂存区
+4、在github上设置SSH密钥，密钥文件在本地C:/USERS/ADMINISTRATOR/.SSH文件下的id_rsa.pub。
+5、将本地库与远程库关联 git remote add origin "远程库地址"
+6、git push -u origin master将文件从暂存区提交到远程库
